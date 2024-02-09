@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-6">
                     <ul class="list-unstyled d-flex">
-                        <li class="px-3"><a href="{{ route('students') }}">Studenti</a></li>
+                        <li class="px-3"><a href="{{ route('homepage') }}">Home</a></li>
                         <li class="px-3"><a href="{{ route('teachers') }}">Insegnanti</a></li>
                         <li class="px-3"><a href="{{ route('tutor') }}">Tutor</a></li>
                     </ul>
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mt-5">
-                <h1>{{ $welcome }}</h1>
+                <h1>Sudenti</h1>
             </div>
         </div>
     </div>

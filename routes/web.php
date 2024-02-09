@@ -16,4 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $welcome = 'Hello World';
     return view('homepage', compact('welcome'));
-});
+})->name('homepage');
+
+Route::get('/students', function () {
+    return view('students');
+})->name('students');
+
+Route::get('/teachers', function () {
+    return view('teachers');
+})->name('teachers');
+
+Route::get('/tutor', function () {
+    return view('tutor');
+})->name('tutor');

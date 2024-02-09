@@ -30,6 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <h3>Studenti:</h3>
                 <ul class="list-unstyled">
                     @foreach ($students as $student)
                         <li>{{ $student }} </li>

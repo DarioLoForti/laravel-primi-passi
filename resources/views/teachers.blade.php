@@ -29,8 +29,9 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center mt-5">
-                <h1>teachers</h1>
+            <div class="col-12 mt-5">
+                <h3>Insegnante:</h3>
+                <h5>{{ $teachers }}</h5>
             </div>
         </div>
     </div>

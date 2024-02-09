@@ -26,7 +26,8 @@ Route::get('/students', function () {
 })->name('students');
 
 Route::get('/teachers', function () {
-    return view('teachers');
+    $teachers = "Fabrizio Mastrobattista";
+    return view('teachers', compact('teachers'));
 })->name('teachers');
 
 Route::get('/tutor', function () {

@@ -31,5 +31,8 @@ Route::get('/teachers', function () {
 })->name('teachers');
 
 Route::get('/tutor', function () {
-    return view('tutor');
+    $tutors = [
+        "Antonio Sagoleo", "Thomas de Luca"
+    ];
+    return view('tutor', compact('tutors'));
 })->name('tutor');

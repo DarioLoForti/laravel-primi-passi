@@ -29,8 +29,12 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center mt-5">
-                <h1>Sudenti</h1>
+            <div class="col-12">
+                <ul class="list-unstyled">
+                    @foreach ($students as $student)
+                        <li>{{ $student }} </li>
+                    @endforeach
+                </ul>
             </div>
         </div>
     </div>

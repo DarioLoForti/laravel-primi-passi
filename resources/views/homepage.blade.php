@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="col-6">
-                    <h1> Laravel classe 113</h1>
+                    <h1> Laravel Classe 113</h1>
                 </div>
             </div>
         </div>
